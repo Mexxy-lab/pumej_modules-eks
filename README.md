@@ -1,6 +1,6 @@
 ~~~ 
 module "pumej-module" {
-  source         = "./source"
+  source         = "github.com/Mexxy-lab/pumej_modules-eks.git"
   region         = "Enter your Providers region here"
   vpc_cidr       = "10.0.0.0/16"
   dns_hostnames  = true
