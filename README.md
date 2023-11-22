@@ -1,3 +1,6 @@
+# MY AWESOME TERRAFORM MODULE TO PROVISION EKS CLUSTER WITH CUSTOM NETWORKING  ----->
+
+# Sample usage: To provision an EKS cluster in AWS
 ~~~ 
 module "pumej-module" {
   source         = "github.com/Mexxy-lab/pumej_modules-eks.git"
